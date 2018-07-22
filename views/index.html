@@ -1,0 +1,56 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>What should I do now?</title>
+    <meta name="description" content="A suggested answer to the question: What should I do now?">
+    <link id="favicon" rel="icon" href="https://cdn.glitch.com/3085ad28-e923-4550-ade4-27d2bb7a0a13%2Fthinking-face_1f914.png?1532285460432" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-800500-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-800500-5');
+</script>
+
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        What should I do now?
+      </h1>
+    </header>
+
+    <main>
+      <big><p id="thingToDo"></p></big>
+    </main>
+
+    <footer>
+      <small>Made with 😻 by <a href="http://anaulin.org">Ana Ulin</a> on <a href="http://glitch.com">Glitch</a></small>
+    </footer>
+
+    <img src="https://cdn.glitch.com/3085ad28-e923-4550-ade4-27d2bb7a0a13%2Fthinking-face_1f914.png?1532285460432"
+         style="position:fixed;top:20px;right:20px;" height="50"/>
+  </body>
+</html>
